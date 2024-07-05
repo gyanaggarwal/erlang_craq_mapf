@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Emakefile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{random_util,                                         [{i, "../include/"}, {outdir, "../ebin/"}]}.
+{config_map,                                          [{i, "../include/"}, {outdir, "../ebin/"}]}.
+{unique_id_generator,                                 [{i, "../include/"}, {outdir, "../ebin/"}]}.
+{unique_id_generator_impl,                            [{i, "../include/"}, {outdir, "../ebin/"}]}.
+
+
+
+
+
+
+

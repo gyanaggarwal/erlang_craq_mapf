@@ -1,0 +1,10 @@
+{application,craq_node,
+             [{description,"craq_node"},
+              {vsn,"0.1.0"},
+              {modules,[craq_node_app,
+			craq_process_sup,
+			craq_node_process]},
+              {registered,[craq_node_sup,
+			   craq_node_process]},
+              {applications,[kernel,stdlib]},
+              {mod,{craq_node_app,[]}}]}.

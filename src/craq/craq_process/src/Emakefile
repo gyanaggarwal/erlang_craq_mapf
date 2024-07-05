@@ -1,0 +1,14 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Emakefile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{craq_node_process,                         [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_server_process,                       [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_process_sup,                          [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_server_app,                           [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_node_app,                             [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_process_client,                       [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+
+
+
+

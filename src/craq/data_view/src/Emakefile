@@ -1,0 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Emakefile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{craq_data_view,                        [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_demo_type,                        [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+
+
+
+

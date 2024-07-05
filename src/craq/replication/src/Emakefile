@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Emakefile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{craq_client,                               [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{replication_ring,                          [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{load_balancer,                             [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{failure_detector,                          [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{write_conflict_resolver,                   [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{write_conflict_resolver_node_value_impl,   [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{failure_detector_monitor_impl,             [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{load_balancer_random_impl,                 [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_replication,                          [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_node_state,                           [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_server_state,                         [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_update_msg,                           [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_precedence_order_ring,                [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_update_msg_list,                      [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_next_step,                            [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+{craq_server_msg,                           [{i, "../../common/include/"}, {outdir, "../ebin/"}]}.
+
+
+
